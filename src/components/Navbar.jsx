@@ -28,11 +28,11 @@ function Navbar() {
         <a href="#services" onClick={(e) => { e.preventDefault(); scrollTo('#services') }}>Serviços</a>
         <a href="#contact" onClick={(e) => { e.preventDefault(); scrollTo('#contact') }}>Contato</a>
         <a
-          href="https://wa.me/5553981231850?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
+          href="https://wa.me/5511999999999?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
           className="btn-whatsapp"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={(e) => { e.preventDefault(); setMenuOpen(false); window.open("https://wa.me/5552981231850?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto.", "_blank"); if(window.fbq){window.fbq('track','Contact');window.fbq('track','Lead');} }}
+          onClick={(e) => { e.preventDefault(); setMenuOpen(false); window.open("https://wa.me/5511999999999?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto.", "_blank"); if(window.fbq){window.fbq('track','Contact');window.fbq('track','Lead');} }}
           style={{ marginTop: '1rem' }}
         >
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

@@ -36,7 +36,7 @@ function Contact() {
         <p>Estou disponível para novos projetos. Vamos conversar sobre como posso ajudar a transformar sua ideia em realidade.</p>
         <div className="cta-buttons">
           <a
-            href="https://wa.me/5553981231850?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
+            href="https://wa.me/5511999999999?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
             className="btn-whatsapp"
             target="_blank"
             rel="noopener noreferrer"
