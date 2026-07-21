@@ -31,7 +31,7 @@ function About() {
         <div className="about-image reveal">
           <div className="about-image-frame">
             <div className="about-image-inner">
-              <div className="avatar">FS</div>
+              <img src="/foto.jpg" alt="Foto de perfil" className="about-photo" />
             </div>
           </div>
         </div>

@@ -559,6 +559,12 @@ body {
   color: white;
   font-family: 'Space Grotesk', sans-serif;
 }
+.about-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 .about-info h3 {
   font-family: 'Space Grotesk', sans-serif;
