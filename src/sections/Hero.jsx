@@ -28,7 +28,7 @@ function Hero() {
           </p>
           <div className="hero-buttons">
             <a
-              href="https://wa.me/5511999999999?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
+              href="https://wa.me/5553981231850?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
               className="btn-whatsapp-hero"
               target="_blank"
               rel="noopener noreferrer"
