@@ -735,8 +735,8 @@ body {
 }
 
 .project-image .project-icon {
-  font-size: 3rem;
-  opacity: 0.3;
+  font-size: 7rem;
+  opacity: 0.6;
   transition: all 0.4s ease;
 }
 
@@ -1218,8 +1218,8 @@ body {
 
 .whatsapp-float {
   position: fixed;
-  bottom: 1.8rem;
-  right: 1.8rem;
+  bottom: 3.8rem;
+  right: 3.8rem;
   width: 60px;
   height: 60px;
   background: linear-gradient(135deg, var(--whatsapp), var(--whatsapp-dark));
@@ -1266,8 +1266,8 @@ body {
   .whatsapp-float {
     width: 54px;
     height: 54px;
-    bottom: 1.2rem;
-    right: 1.2rem;
+    bottom: 1.8rem;
+    right: 2.2rem;
   }
 }
 

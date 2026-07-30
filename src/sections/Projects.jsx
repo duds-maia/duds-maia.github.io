@@ -2,11 +2,11 @@ import { useEffect, useRef } from 'react'
 
 const projectsData = [
   {
-    icon: '🛒',
-    title: 'E-commerce Premium',
-    desc: 'Plataforma de e-commerce completa com painel administrativo, pagamentos integrados e otimização para conversão.',
-    techs: ['Next.js', 'Node.js', 'Stripe'],
-    link: '#' // TODO: substitua pelo link real do projeto (site publicado, deploy, GitHub, etc.)
+    icon: '🌥️',
+    title: 'App de clima',
+    desc: 'Aplicativo de previsão do tempo com interface moderna e integração com APIs meteorológicas.',
+    techs: ['Vanilla', 'TypeScript', 'OpenWeatherMap'],
+    link: 'https://duds-maia.github.io/app_clima/' // TODO: substitua pelo link real do projeto (site publicado, deploy, GitHub, etc.)
   },
   {
     icon: '📊',
