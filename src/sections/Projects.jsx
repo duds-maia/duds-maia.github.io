@@ -2,18 +2,18 @@ import { useEffect, useRef } from 'react'
 
 const projectsData = [
   {
+    icon: <img src="public/Imagem do ChatGPT 1 de out, de 2026, 14_14_02.png" alt="logo-me-socorre" />,
+    title: 'Me Socorre',
+    desc: 'Site para solucionar quaisquer problemas que voce tenha na sua casa, desde a instalar uma tomada ate arrumar o encanamento da sua parede.',
+    techs: ['React', 'Prisma ORM', 'PostgreSQL', 'Integração com IA'],
+    link: 'https://trabalho-edecio-socorro.vercel.app/' 
+  },
+  {
     icon: '🌥️',
     title: 'App de clima',
     desc: 'Aplicativo de previsão do tempo com interface moderna e integração com APIs meteorológicas.',
     techs: ['Vanilla', 'TypeScript', 'OpenWeatherMap'],
     link: 'https://duds-maia.github.io/app_clima/' // TODO: substitua pelo link real do projeto (site publicado, deploy, GitHub, etc.)
-  },
-  {
-    icon: '📊',
-    title: 'Dashboard Analytics',
-    desc: 'Dashboard de análise de dados em tempo real com gráficos interativos, relatórios automáticos e exportação de dados.',
-    techs: ['React', 'Python', 'PostgreSQL'],
-    link: '#' // TODO: substitua pelo link real do projeto
   },
   {
     icon: '🤖',
