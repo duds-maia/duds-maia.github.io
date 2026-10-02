@@ -16,7 +16,7 @@ const projectsData = [
     link: 'https://gestao-agil-f.vercel.app/' // TODO: substitua pelo link real do projeto
   },
   {
-    icon: <img src={`${import.meta.env.BASE_URL}image (2).png`} alt="Logo do projeto App de clima" />,
+    icon:  '🌥️',
     title: 'App de clima',
     desc: 'Aplicativo de previsão do tempo com interface moderna e integração com APIs meteorológicas.',
     techs: ['Vanilla', 'TypeScript', 'OpenWeatherMap'],
