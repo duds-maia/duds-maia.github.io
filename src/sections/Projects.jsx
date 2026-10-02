@@ -9,18 +9,18 @@ const projectsData = [
     link: 'https://trabalho-edecio-socorro.vercel.app/' 
   },
   {
-    icon: '🌥️',
+    icon: <img src={`${import.meta.env.BASE_URL}image (1).png`} alt="Logo do projeto Motoflash" />,
+    title: 'Motoflash',
+    desc: 'Aplicativo para gerenciar e otimizar a operação de motos em entregas para o seu estabelecimento.',
+    techs: ['Prisma ORM', 'React', 'Node.js', 'PostgreSQL', 'Integração com Whatsapp'],
+    link: 'https://gestao-agil-f.vercel.app/' // TODO: substitua pelo link real do projeto
+  },
+  {
+    icon: <img src={`${import.meta.env.BASE_URL}image (2).png`} alt="Logo do projeto App de clima" />,
     title: 'App de clima',
     desc: 'Aplicativo de previsão do tempo com interface moderna e integração com APIs meteorológicas.',
     techs: ['Vanilla', 'TypeScript', 'OpenWeatherMap'],
     link: 'https://duds-maia.github.io/app_clima/' // TODO: substitua pelo link real do projeto (site publicado, deploy, GitHub, etc.)
-  },
-  {
-    icon: '🤖',
-    title: 'Chatbot com IA',
-    desc: 'Assistente virtual inteligente integrado com OpenAI, capaz de responder perguntas e automatizar atendimento ao cliente.',
-    techs: ['Next.js', 'OpenAI', 'Node.js'],
-    link: '#' // TODO: substitua pelo link real do projeto
   }
 ]
 
