@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 
 const projectsData = [
   {
-    icon: <img src="public/Imagem do ChatGPT 1 de out, de 2026, 14_14_02.png" alt="logo-me-socorre" />,
+    icon: <img src={`${import.meta.env.BASE_URL}Imagem do ChatGPT 1 de out. de 2026, 14_14_02.png`} alt="Logo do projeto Me Socorre" />,
     title: 'Me Socorre',
     desc: 'Site para solucionar quaisquer problemas que voce tenha na sua casa, desde a instalar uma tomada ate arrumar o encanamento da sua parede.',
     techs: ['React', 'Prisma ORM', 'PostgreSQL', 'Integração com IA'],

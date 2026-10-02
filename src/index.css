@@ -740,6 +740,13 @@ body {
   transition: all 0.4s ease;
 }
 
+.project-image .project-icon img {
+  display: block;
+  width: min(60vw, 15rem);
+  max-height: 12rem;
+  object-fit: contain;
+}
+
 .project-card:hover .project-image .project-icon {
   opacity: 0.6;
   transform: scale(1.1);
